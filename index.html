@@ -1,53 +1,104 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Need to replace old or damaged carpet? From Portland to Eugene and everything in between Carpet Geinus has you covered!">
-    <meta name="keywords" content="carpet, repair, damage">
-    <meta name="author" content="Landon Gray">
-    <link rel="stylesheet" href="index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <title>Carpet Genius Carpet Stretching and Repair</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Carpet Genius provides carpet stretching and repair for wrinkles, stains, wear, and pet damage from Portland to Eugene and communities in between.">
+  <meta name="theme-color" content="#26352d">
+  <meta property="og:title" content="Carpet Genius | Carpet Stretching & Repair">
+  <meta property="og:description" content="Carpet stretching and repair from Portland to Eugene. Call Darren at 503-871-6709.">
+  <meta property="og:type" content="website">
+  <title>Carpet Genius | Carpet Stretching & Repair</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <header>
-        <h1>Carpet Genius</h1>
-        <h3>Carpet Stretching and Repair</h3>
-        <h3 class="header-phone">503-871-6709</h3>
-    </header>
-
-    <div class="hero">
-        <div class="contact-info">
-            <h2>Contact</h2>
-            <p>Darren Schotthoefer</p>
-            <p>503-871-6709</p>
-        </div>
-
-        <div class="services">
-            <h2>Services</h2>
-            <div class="card-container">
-                <div class="card">
-                    <img src="images/carpet-wrinkles.jfif"/ alt="ugly carpet wrinkles">
-                    <h2>WRINKLES!</h2>
-                </div>
-                <div class="card">
-                    <img src="images/carpet-old.jfif"/ alt="old stained carpet">
-                    <h2>STAINS!</h2>
-                </div>
-                <div class="card">
-                    <img src="images/carpet-pet-damage.jfif"/ alt="carpet damage from pets">
-                    <h2>PET DAMAGE!</h2>
-                </div>
-            </div>
-            <div class="text">
-                <p>Whether you need to fix carpet wrinkles, wear and tear, or pet damage disasters, from Portland to Eugene and everything in between, carpet genius stretching and repair has your back!</p>
-                <a href="tel: 503-871-6709">Call <span class="bold">503-871-6709</span> Today!</a>
-            </div>
-        </div>
+  <header class="topbar">
+    <div class="shell topbar-inner">
+      <a class="wordmark" href="#top" aria-label="Carpet Genius home">Carpet Genius</a>
+      <a class="top-phone" href="tel:5038716709">503-871-6709</a>
     </div>
+  </header>
 
+  <main>
+    <section class="hero" id="top">
+      <div class="shell hero-inner">
+        <p class="eyebrow">Carpet stretching &amp; repair</p>
+        <h1>Fix the carpet.<br>Keep the room.</h1>
+        <p class="hero-lead">Wrinkles, stains, wear, and pet damage don’t always mean it’s time for new carpet. Give Darren a call and see what can be repaired.</p>
+        <div class="hero-actions">
+          <a class="button" href="tel:5038716709">Call Darren</a>
+          <span>Serving Portland to Eugene<br>and communities in between.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="problem-section" aria-labelledby="problems-title">
+      <div class="shell">
+        <div class="section-heading">
+          <p class="eyebrow">Services</p>
+          <h2 id="problems-title">What happened to your carpet?</h2>
+        </div>
+
+        <div class="problem-grid">
+          <article class="problem-card">
+            <img src="https://thecarpetgenius.com/images/carpet-wrinkles.jfif" alt="Carpet with visible wrinkles and ripples" loading="lazy">
+            <div class="problem-copy">
+              <h3>Wrinkles</h3>
+              <p>Loose, rippled, or buckled carpet can often be stretched back into place.</p>
+            </div>
+          </article>
+
+          <article class="problem-card">
+            <img src="https://thecarpetgenius.com/images/carpet-old.jfif" alt="Older carpet with visible stains and wear" loading="lazy">
+            <div class="problem-copy">
+              <h3>Stains &amp; wear</h3>
+              <p>Damaged or worn areas may have repair options before you replace the whole room.</p>
+            </div>
+          </article>
+
+          <article class="problem-card">
+            <img src="https://thecarpetgenius.com/images/carpet-pet-damage.jfif" alt="Carpet damaged by a pet" loading="lazy">
+            <div class="problem-copy">
+              <h3>Pet damage</h3>
+              <p>Chewed, scratched, pulled, or torn carpet? Call Darren and explain what happened.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="service-area" aria-label="Service area">
+      <div class="shell service-area-inner">
+        <p class="route">Portland <span aria-hidden="true">↔</span> Eugene</p>
+        <div>
+          <h2>Carpet repair across western Oregon.</h2>
+          <p>From wrinkles and wear to pet damage, Carpet Genius serves homes from Portland to Eugene and the communities in between.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="shell contact-inner">
+        <p class="eyebrow">Ready to talk?</p>
+        <h2>Just call Darren.</h2>
+        <a class="big-phone" href="tel:5038716709">503-871-6709</a>
+        <p class="contact-name">Darren Schotthoefer · Carpet Genius Stretching &amp; Repair</p>
+        <a class="button" href="tel:5038716709">Call today</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell footer-inner">
+      <span>© <span id="year"></span> Carpet Genius</span>
+      <span>Carpet stretching &amp; repair · Portland to Eugene</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
